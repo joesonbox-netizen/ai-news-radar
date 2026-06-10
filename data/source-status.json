@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-10T17:43:06.891593Z",
+  "generated_at": "2026-06-10T20:36:45.854857Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 210,
-      "duration_ms": 8288,
+      "item_count": 183,
+      "duration_ms": 7062,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "AI Breakfast",
       "ok": true,
       "item_count": 9,
-      "duration_ms": 321,
+      "duration_ms": 272,
       "error": null
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 39,
-      "duration_ms": 106,
+      "duration_ms": 22,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 351,
+      "duration_ms": 461,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 530,
+      "duration_ms": 447,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 377,
-      "duration_ms": 14899,
+      "item_count": 395,
+      "duration_ms": 16492,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1448,
+      "duration_ms": 734,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3042,
-      "duration_ms": 1440,
+      "item_count": 2870,
+      "duration_ms": 1792,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 55,
-      "duration_ms": 458,
+      "item_count": 64,
+      "duration_ms": 604,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 10,
-      "duration_ms": 434,
+      "duration_ms": 239,
       "error": null
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 1579,
+      "duration_ms": 1864,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 1215,
+      "duration_ms": 1349,
       "error": null
     },
     {
@@ -102,21 +102,21 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 147,
-      "duration_ms": 643,
+      "duration_ms": 602,
       "error": null
     },
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "ok": true,
-      "partial_failures": 4,
-      "item_count": 140,
-      "duration_ms": 3448,
-      "error": "4 feeds failed",
+      "partial_failures": 5,
+      "item_count": 110,
+      "duration_ms": 2724,
+      "error": "5 feeds failed",
       "feed_count": 10,
       "effective_feed_count": 10,
-      "ok_feed_count": 6,
-      "failed_feed_count": 4,
+      "ok_feed_count": 5,
+      "failed_feed_count": 5,
       "skipped_feed_count": 0,
       "replaced_feed_count": 0
     }
@@ -124,16 +124,17 @@
   "successful_sites": 14,
   "failed_sites": [],
   "zero_item_sites": [],
-  "fetched_raw_items": 5249,
-  "items_before_topic_filter": 6530,
-  "items_in_24h": 745,
+  "fetched_raw_items": 5047,
+  "items_before_topic_filter": 6667,
+  "items_in_24h": 762,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
     "feed_total": 10,
     "effective_feed_total": 10,
-    "ok_feeds": 6,
+    "ok_feeds": 5,
     "failed_feeds": [
+      "https://www.digitaltrends.com/feed/",
       "https://thezvi.substack.com/feed",
       "https://garymarcus.substack.com/feed",
       "https://milesbrundage.substack.com/feed",
@@ -149,10 +150,10 @@
         "feed_title": "Digital Trends",
         "feed_url": "https://www.digitaltrends.com/feed/",
         "effective_feed_url": "https://www.digitaltrends.com/feed/",
-        "ok": true,
-        "item_count": 30,
-        "duration_ms": 217,
-        "error": null,
+        "ok": false,
+        "item_count": 0,
+        "duration_ms": 110,
+        "error": "403 Client Error: Forbidden for url: https://www.digitaltrends.com/feed/",
         "skipped": false,
         "skip_reason": null,
         "replaced": false,
@@ -166,7 +167,7 @@
         "effective_feed_url": "https://thezvi.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 96,
+        "duration_ms": 24,
         "error": "403 Client Error: Forbidden for url: https://thezvi.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -181,7 +182,7 @@
         "effective_feed_url": "https://garymarcus.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 110,
+        "duration_ms": 28,
         "error": "403 Client Error: Forbidden for url: https://garymarcus.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -196,7 +197,7 @@
         "effective_feed_url": "https://milesbrundage.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 88,
+        "duration_ms": 21,
         "error": "403 Client Error: Forbidden for url: https://milesbrundage.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -211,7 +212,7 @@
         "effective_feed_url": "https://www.oneusefulthing.org/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 419,
+        "duration_ms": 336,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -226,7 +227,7 @@
         "effective_feed_url": "https://readwrite.com/feed/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 475,
+        "duration_ms": 401,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -241,7 +242,7 @@
         "effective_feed_url": "https://sarahconstantin.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 90,
+        "duration_ms": 34,
         "error": "403 Client Error: Forbidden for url: https://sarahconstantin.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -256,7 +257,7 @@
         "effective_feed_url": "https://www.wired.com/feed/rss",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 211,
+        "duration_ms": 86,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -271,7 +272,7 @@
         "effective_feed_url": "https://www.ixiqin.com/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1111,
+        "duration_ms": 1217,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -286,7 +287,7 @@
         "effective_feed_url": "https://1q43.blog/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 631,
+        "duration_ms": 467,
         "error": null,
         "skipped": false,
         "skip_reason": null,
