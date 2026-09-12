@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-12T09:32:35.040836Z",
+  "generated_at": "2026-09-12T18:39:37.098239Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 212,
-      "duration_ms": 2738,
+      "item_count": 209,
+      "duration_ms": 2886,
       "error": null
     },
     {
@@ -14,7 +14,7 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 304,
+      "duration_ms": 30,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
@@ -22,7 +22,7 @@
       "site_name": "Follow Builders",
       "ok": true,
       "item_count": 31,
-      "duration_ms": 340,
+      "duration_ms": 1671,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 418,
+      "duration_ms": 479,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 235,
+      "duration_ms": 279,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 363,
-      "duration_ms": 16544,
+      "item_count": 316,
+      "duration_ms": 12770,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 616,
+      "duration_ms": 1042,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3038,
-      "duration_ms": 1517,
+      "item_count": 3029,
+      "duration_ms": 1575,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 79,
-      "duration_ms": 552,
+      "item_count": 62,
+      "duration_ms": 657,
       "error": null
     },
     {
@@ -78,7 +78,7 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 5085,
+      "duration_ms": 5560,
       "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
     },
     {
@@ -86,7 +86,7 @@
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 2324,
+      "duration_ms": 2120,
       "error": null
     },
     {
@@ -94,7 +94,7 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 822,
+      "duration_ms": 823,
       "error": null
     },
     {
@@ -102,7 +102,7 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 126,
-      "duration_ms": 1397,
+      "duration_ms": 1330,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 5,
       "item_count": 110,
-      "duration_ms": 4013,
+      "duration_ms": 2876,
       "error": "5 feeds failed",
       "feed_count": 10,
       "effective_feed_count": 10,
@@ -127,9 +127,9 @@
     "aihubtoday"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5179,
-  "items_before_topic_filter": 5499,
-  "items_in_24h": 602,
+  "fetched_raw_items": 5103,
+  "items_before_topic_filter": 4295,
+  "items_in_24h": 438,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -155,7 +155,7 @@
         "effective_feed_url": "https://www.digitaltrends.com/feed/",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 181,
+        "duration_ms": 72,
         "error": "405 Client Error: Not Allowed for url: https://www.digitaltrends.com/feed/",
         "skipped": false,
         "skip_reason": null,
@@ -170,7 +170,7 @@
         "effective_feed_url": "https://thezvi.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 57,
+        "duration_ms": 23,
         "error": "403 Client Error: Forbidden for url: https://thezvi.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -185,7 +185,7 @@
         "effective_feed_url": "https://garymarcus.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 132,
+        "duration_ms": 28,
         "error": "403 Client Error: Forbidden for url: https://garymarcus.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -200,7 +200,7 @@
         "effective_feed_url": "https://milesbrundage.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 56,
+        "duration_ms": 22,
         "error": "403 Client Error: Forbidden for url: https://milesbrundage.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -215,7 +215,7 @@
         "effective_feed_url": "https://www.oneusefulthing.org/feed",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 346,
+        "duration_ms": 375,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -230,7 +230,7 @@
         "effective_feed_url": "https://readwrite.com/feed/",
         "ok": true,
         "item_count": 20,
-        "duration_ms": 409,
+        "duration_ms": 162,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -245,7 +245,7 @@
         "effective_feed_url": "https://sarahconstantin.substack.com/feed",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 61,
+        "duration_ms": 32,
         "error": "403 Client Error: Forbidden for url: https://sarahconstantin.substack.com/feed",
         "skipped": false,
         "skip_reason": null,
@@ -260,7 +260,7 @@
         "effective_feed_url": "https://www.wired.com/feed/rss",
         "ok": true,
         "item_count": 50,
-        "duration_ms": 113,
+        "duration_ms": 82,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -275,7 +275,7 @@
         "effective_feed_url": "https://www.ixiqin.com/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1346,
+        "duration_ms": 984,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -290,7 +290,7 @@
         "effective_feed_url": "https://1q43.blog/feed/",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 1312,
+        "duration_ms": 1096,
         "error": null,
         "skipped": false,
         "skip_reason": null,
